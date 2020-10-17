@@ -22,6 +22,9 @@ cout << "ROZMIARY KAMERY: " << cap.get( cv::CAP_PROP_FRAME_WIDTH ) << "x" << cap
             //stream finished
             capturing = false;
         }
+        if( ( cv::waitKey( 1000.0/60.0 )&0x0ff) == 27 ) {
+            capturing = false;
+        }
     } while( capturing );
 return 0;
 }
