@@ -8,7 +8,7 @@ int main( int argc, char** argv ){
     bool capturing = true;
 cv::VideoCapture cap(0);
 if ( !cap.isOpened()){
-    std::cerr << "error while opening" << std::endl;
+    cerr << "error while opening" << endl;
     return -1;
 }
 cout << "ROZMIARY KAMERY: " << cap.get( cv::CAP_PROP_FRAME_WIDTH ) << "x" << cap.get( cv::CAP_PROP_FRAME_HEIGHT ) << endl;
