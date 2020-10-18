@@ -3,26 +3,30 @@
 #include <iostream>
 
 using namespace std;
+using namespace cv;
 
 int main( int argc, char** argv ){
     bool capturing = true;
-cv::VideoCapture cap(0);
+VideoCapture cap( "szukaj_zielonego.webm" );
+//VideoCapture cap( "rafalOkulary.webm" );// tu wlasny gif, niestety przyspieszony lecz nie wiem dlaczego
+//VideoCapture cap(0); //Kamerka u mnie nie dziala :C 
+
 if ( !cap.isOpened()){
-    cerr << "error while opening" << endl;
+    cerr << "Error przy Otwieraniu" << endl;
     return -1;
 }
-cout << "ROZMIARY KAMERY: " << cap.get( cv::CAP_PROP_FRAME_WIDTH ) << "x" << cap.get( cv::CAP_PROP_FRAME_HEIGHT ) << endl;
+cout << "ROZMIARY Okna: " << cap.get( CAP_PROP_FRAME_WIDTH ) << "x" << cap.get( CAP_PROP_FRAME_HEIGHT ) << endl;
     do {
-        cv::Mat frame;
-        cv::Mat dst = frame;
+        Mat frame;
+        Mat dst = frame;
         if ( cap.read( frame ) ) {
-            cv::flip ( frame,dst,1 );
-            cv::imshow("Not-yet smart window",dst);
+            flip ( frame,dst,1 );
+            imshow("Okienko Prawie inteligentne",dst);
         } else {
             //stream finished
             capturing = false;
         }
-        if( ( cv::waitKey( 1000.0/60.0 )&0x0ff) == 27 ) {
+        if( ( waitKey( 1000.0/60.0 )&0x0ff) == 27 ) {
             capturing = false;
         }
     } while( capturing );
