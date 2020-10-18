@@ -7,4 +7,4 @@ Tutaj bedą się znajdować czwiczenia które zostały wykonywane na Laboratoria
 Niech program który jest w Twoim repozytorium będzie wyświetlał odbicie lustrzane tego co widzi kamerka.
 Niech też program się zakończy w momencie wciśnięcia klawisza ESC
 
-Lab2: 
+                                                Lab2: 
