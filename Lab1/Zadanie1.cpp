@@ -8,7 +8,6 @@ using namespace cv;
 int main( int argc, char** argv ){
     bool capturing = true;
 //VideoCapture cap( "szukaj_zielonego.webm" );
-//VideoCapture cap( "rafalOkulary.webm" );// tu wlasny gif, niestety przyspieszony lecz nie wiem dlaczego
 VideoCapture cap(0); 
 
 if ( !cap.isOpened()){
