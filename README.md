@@ -16,3 +16,4 @@ Dokona operacji inRange dla zadanych zakresów - zakresy niech będą podane za 
 Wartości zakresów niech pojawiają się w okienku z obrazem w wersji HSV
 Jeżeli użytkownik naciśnie klawisz <x> to zostanie zrobione "zdjęcie" wybranego przez użytkownika fragmentu obrazu - wybieramy ROI. To zdjęcie niech zostanie zapisane na dysk pod nazwą taką, jak sobie wymyślisz. Podpowiem, że można skorzystać z imwrite
 
+                                                Lab3 27.10.2020
