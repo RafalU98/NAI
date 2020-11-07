@@ -17,3 +17,10 @@ Wartości zakresów niech pojawiają się w okienku z obrazem w wersji HSV
 Jeżeli użytkownik naciśnie klawisz <x> to zostanie zrobione "zdjęcie" wybranego przez użytkownika fragmentu obrazu - wybieramy ROI. To zdjęcie niech zostanie zapisane na dysk pod nazwą taką, jak sobie wymyślisz. Podpowiem, że można skorzystać z imwrite
 
                                                 Lab3 27.10.2020
+  Napisz program, który będzie wyłapywał 2 największe obiekty wybranego koloru (wybierz kolor, polecam kolory bardzo jaskrawe) i jak zostaną ułożone w jednej linii (z jakimś marginesem) to między nimi zostanie narysowane coś. Niech to coś będzie w stylu (do wyboru) odcinek, obrazek pioruna, obrazek miecza świetlnego, czy czegokolwiek innego.
+  
+                                                Lab4 03.11.2020
+Wyobraźmy sobie, że mamy do zeskanowania dokument. Chcielibyśmy, aby zawsze był on poprawnie zorientowany (góra u góry, dół na dole, a nie do góry nogami). Nie mamy skanera, więc musimy skorzystać z aparatu w telefonie lub w laptopie.
+Zasada działania: Użytkownik kładzie kartkę do "zeskanowania" na ciemnym stole, a następnie kładzie na kartce marker (na przykład coś o kolorze różowym) w prawym dolnym rogu tej kartki. Kieruje kamerę na tą kartkę. Program wyłapuje prostokątną kartkę papieru, sprawdza czy jest na niej marker, jeśli tak, to robi zdjęcie, poprawia perspektywę tak aby kartka była prostokątna, obraca jeśli trzeba tak aby marker był na dole i zapisuje na dysku. Może zapisywać na przykład serię tak zeskanowanych kartek w celu umożliwienia użytkownikowi wyboru najlepszego skanu.                                                
+                                                
+                                                Lab5 10.11.2020
