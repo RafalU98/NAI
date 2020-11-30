@@ -19,17 +19,14 @@ Tutaj bedą się znajdować czwiczenia które zostały wykonywane na Laboratoria
     To zdjęcie niech zostanie zapisane na dysk pod nazwą taką, jak sobie wymyślisz. Podpowiem, że można skorzystać z imwrite
 
   ## Lab_03 27.10.2020
-    Napisz program, który będzie wyłapywał 2 największe obiekty wybranego koloru (wybierz kolor, polecam kolory bardzo jaskrawe) i jak zostaną ułożone w jednej linii
-    (z jakimś     marginesem) to między nimi zostanie narysowane coś. 
+    Napisz program, który będzie wyłapywał 2 największe obiekty wybranego koloru (wybierz kolor, polecam kolory bardzo jaskrawe) i jak zostaną ułożone w jednej lini (z jakimś marginesem) to między nimi zostanie narysowane coś. 
     Niech to coś będzie w stylu (do wyboru) odcinek, obrazek pioruna, obrazek miecza świetlnego, czy czegokolwiek innego.
   
   ## Lab_04 03.11.2020
     Wyobraźmy sobie, że mamy do zeskanowania dokument. Chcielibyśmy, aby zawsze był on poprawnie zorientowany (góra u góry, dół na dole, a nie do góry nogami). 
     Nie mamy skanera, więc musimy skorzystać z aparatu w telefonie lub w laptopie.
-    Zasada działania: Użytkownik kładzie kartkę do "zeskanowania" na ciemnym stole, a następnie kładzie na kartce marker (na przykład coś o kolorze różowym) w prawym dolnym  
-    rogu tej kartki. Kieruje kamerę na tą kartkę.
-    Program wyłapuje prostokątną kartkę papieru, sprawdza czy jest na niej marker, jeśli tak, to robi zdjęcie, poprawiaperspekty tak aby kartka była prostokątna,
-    obraca jeśli trzeba tak aby marker był na dole i zapisuje na dysku.
+    Zasada działania: Użytkownik kładzie kartkę do "zeskanowania" na ciemnym stole, a następnie kładzie na kartce marker (na przykład coś o kolorze różowym) w prawym dolnym rogu tej kartki. Kieruje kamerę na tą kartkę.
+    Program wyłapuje prostokątną kartkę papieru, sprawdza czy jest na niej marker, jeśli tak, to robi zdjęcie, poprawiaperspekty tak aby kartka była prostokątna obraca jeśli trzeba tak aby marker był na dole i zapisuje na dysku.
     Może zapisywać na przykład serię tak zeskanowanych kartek w celu umożliwienia użytkownikowi wyboru najlepszego skanu.                                                
                                                 
   ## Lab_05 10.11.2020
@@ -41,11 +38,10 @@ Tutaj bedą się znajdować czwiczenia które zostały wykonywane na Laboratoria
     - program pozwala na zliczanie dowolnie wielu obiektów na raz.
  
   ## Lab_06 17.11.2020
-    Zaimplementuj w wybranym przez ciebie języku programowania ogólny interfejs reprezentujący dowolną taką funkcję, 
-    z https://en.wikipedia.org/wiki/Test_functions_for_optimization
+    Zaimplementuj w wybranym przez ciebie języku programowania ogólny interfejs reprezentujący dowolną taką funkcję, z https://en.wikipedia.org/wiki/Test_functions_for_optimization
     Zaimplementuj kilka wybranych przez Ciebie funkcji testowych (co najmniej 3).
     Zaimplementuj funkcję, która będzie znajdywała przybliżone rozwiązanie dla dowolnej z zaimplementowanych funkcji. Zrób to w następujący sposób:
-    Zaimplementuj funkcję (lub metodę), która będzie pobierała jako argument funkcję do zoptymalizowania oraz zakres dziedziny. Funkcja ta będzie wykonywała losowe próbkowanie     punktów dziedziny w celu znalezienia takiego, dla którego wartość funkcji celu będzie najlepsza.
+    Zaimplementuj funkcję (lub metodę), która będzie pobierała jako argument funkcję do zoptymalizowania oraz zakres dziedziny. Funkcja ta będzie wykonywała losowe próbkowanie punktów dziedziny w celu znalezienia takiego, dla którego wartość funkcji celu będzie najlepsza.
     
     *Przygotuj wykres, pokazujący jakość rozwiązania w stosunku do czasu obliczeń. Uśrednij go z 20 eksperymentów. 
     Jeśli nie masz pomysłu jak wygenerować wykres - skorzystaj z Gnuplot-a.
