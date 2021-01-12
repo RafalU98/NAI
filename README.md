@@ -67,3 +67,71 @@ Tutaj bedą się znajdować czwiczenia które zostały wykonywane na Laboratoria
     Przy tym punkcie zachęcam do zadawania pytań.
 	  Przetestuj ręcznie, czy faktycznie to działa. Dodaj możliwość konwersji genotypu w fenotyp oraz fenotypu w genotyp. (czyli tablica 128 liczb na X,Y oraz z X,Y na tablicę 128 liczb).
 	  Przetestuj, czy algorytm losowego próbkowania da radę tu wygenerować jakieś sensowne rozwiązanie. - to na dodatkowe 0.5pkt
+
+  ## Lab_09 08.12.202
+  	Napisz operatory genetyczne.
+	Masz już przygotowane elementy zadania optymalizacyjnego do rozwiązania przez GA. Teraz czas na operatory genetyczne. Przygotuj i przetestuj:
+	Krzyżowanie jednopunktowe
+	Mutacja (wybierz)
+	Selekcja turniejowa albo ruletkowa
+	Tak więc po tych zajęciach powinno być prawie wszystko – bez samej głównej pętli algorytmu. To zrobimy na następnym naszym spotkaniu
+  
+  ## Lab_10 15.12.2020
+ 	Dziś dokańczamy algorytm genetyczny. Przygotuj główną pętlę tego algorytmu. Przypominam etapy:
+	Inicjalizacja populacji
+	Powtarzanie dopóki nie nastąpi warunek zakończenia
+		selekcja
+		krzyżowanie
+		mutacja
+		tworzenie nowej populacji (to na dodatkowy punkt można uwzględnić elitę)
+	wynik to najlepszy osobnik z bieżącej populacji
+ 
+  ## Lab_11 22.12.2020
+  	Sieci neuronowe
+	Zadanie na dziś:
+	Przygotuj implementację sztucznego neuronu. Miej na uwadze fakt, że będzie trzeba je połączyć ze sobą na przyszłych zajęciach.
+	Można spróbować funkcyjnie, ale tu będzie trochę gimnastyki.
+  
+  ## Lab_12 12.01.2021
+  	Sztuczne sieci neuronowe
+	Na dzisiaj proponuję przygotować małą sieć neuronową.
+	Wypisywanie informacji dla nas
+
+	Dodaj funkcję lub metodę pozwalającą na wypisanie parametrów neuronu.
+
+	Implementacja mini sieci neuronowej
+
+	Zaimplementuj sieć neuronową składającą się z 3 neuronów. Niech będą one połączone w następujący sposób:
+
+	-- N1 -
+     	  \
+    	    -- N3 --
+     	  /
+	-- N2 -
+
+
+	Wypisanie stanu
+
+	Dodaj możliwość wyświetlenia stanu tej sieci neuronowej, to znaczy:
+
+
+	
+	Wejścia
+	Wagi wejść
+	Wartość sumy ważonej wejść
+	Stan neuronu (wzbudzony lub nie, ewentualnie wartość po obliczeniu funkcji aktywacji)
+	Wyświetlenie listy połączeń między neuronami (metoda dowolna)
+
+
+	Zadanie na dodatkowy punkt
+	Wyeksportuj sieć neuronową do formatu graficznego lub grafu. Może być też format graphviz i przykład wizualizacji.
+  
+  ## Lab_13 19.01.2021
+  
+  ## Lab_14 26.01.2021
+  
+  ## Lab_15 02.02.2021
+  
+  
+  
+	  
